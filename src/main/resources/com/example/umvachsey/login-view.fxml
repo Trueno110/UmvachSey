@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #FF0035;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.umvachsey.LoginController">
+
+      <Label layoutX="165.0" layoutY="14.0" style="-fx-background-color: #07e51d;" text="ААААА Женщины ААА" />
+      <TextField fx:id="LoginTextField" layoutX="98.0" layoutY="95.0" style="-fx-background-color: #00B7FF;" />
+      <PasswordField fx:id="PassvordTextField" layoutX="98.0" layoutY="146.0" style="-fx-background-color: #00B7FF;" />
+      <Label layoutX="50.0" layoutY="150.0" text="Пароль" />
+      <Label layoutX="50.0" layoutY="99.0" text="Логин" />
+      <Button layoutX="84.0" layoutY="318.0" mnemonicParsing="false" onAction="#SignInButtonClick" style="-fx-background-color: #07e51d;" text="Войти" />
+      <Button layoutX="274.0" layoutY="318.0" mnemonicParsing="false" onAction="#SigUpButtonClick" style="-fx-background-color: #07e51d;" text="Регистрация" />
+      <Label layoutX="133.0" layoutY="363.0" text="Мои глаза........Спасите их" />
+
+</AnchorPane>
